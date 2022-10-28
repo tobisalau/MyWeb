@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tobi Salau">
+    <meta name="description" content="Tobi Salau digital CV">
+    <title>Tobi Salau CV</title>
+    <link rel="icon" href="oplogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="testo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam">
+    <style>
+        #summy {
+            font-family: 'Poppins';
+        }
+
+        .summydes {
+            font-family: 'Poppins';
+        }
+
+        #named {
+            font-family: 'Kalam';
+        }
+
+        #stacks {
+            font-family: 'Kalam';
+        }
+
+        #explbl {
+            font-family: 'Poppins';
+        }
+
+        #cs1 {
+            font-family: 'Poppins';
+        }
+
+        body {
+            background-color: black;
+            width: 100vh;
+        }
+
+        #cs2 {
+            font-family: 'Poppins';
+        }
+
+        #csdev1 {
+            font-family: 'Poppins';
+        }
+
+        #csdev2 {
+            font-family: 'Poppins';
+        }
+
+        #pl1 {
+            font-family: 'Poppins';
+        }
+
+        #pl2 {
+            font-family: 'Poppins';
+        }
+
+        #guys1 {
+            font-family: 'Poppins';
+        }
+
+        #pl11 {
+            font-family: 'Poppins';
+        }
+
+        #pl22 {
+            font-family: 'Poppins';
+        }
+
+        #guys2 {
+            font-family: 'Poppins';
+        }
+
+        #guysdev1 {
+            font-family: 'Poppins';
+        }
+
+        #guysdev2 {
+            font-family: 'Poppins';
+        }
+
+        #certlbl {
+            font-family: 'Poppins';
+        }
+
+        #cyb {
+            font-family: 'Poppins';
+        }
+    </style>
+
+    <script>
+        var ab = 0;
+        function chngim() {
+            ab = ab + 1;
+            if (ab == 1) {
+                document.getElementById("im1").src = "html5.png";
+            }
+            else if (ab == 2) {
+                document.getElementById("im1").src = "css.png";
+            }
+            else if (ab == 3) {
+                document.getElementById("im1").src = "jsim.png";
+            }
+            else if (ab == 4) {
+                document.getElementById("im1").src = "sql.png";
+            }
+            else {
+                document.getElementById("im1").src = "Pylogo.png";
+                ab = 0
+            }
+        }
+
+        function chngim2() {
+            ab = ab - 1;
+            if (ab == 1) {
+                document.getElementById("im1").src = "html5.png";
+            }
+            else if (ab == 2) {
+                document.getElementById("im1").src = "css.png";
+            }
+            else if (ab == 3) {
+                document.getElementById("im1").src = "jsim.png";
+            }
+            else if (ab == 4) {
+                document.getElementById("im1").src = "sql.png";
+            }
+            else if (ab == -1) {
+                document.getElementById("im1").src = "sql.png";
+                ab = 4;
+            }
+            else {
+                document.getElementById("im1").src = "Pylogo.png";
+            }
+        }
+    </script>
+</head>
+
+
+
+<body>
+    <header>
+        <ul id="ups">
+            <li style="float:left; border-right:none" id="ups2"><a href="testoht.html" id="owny" class="lia">
+                    <img src="homee3.jpg" alt="Home">
+                </a>
+            </li>
+            <li style="border-right:none" id="ups2"> <a href="https://github.com/tobisalau" target="_blank" class="lia">
+                    Github </a>
+            </li>
+            <li id="ups2"><a href="#shhh" class="lia">
+                    Certifications
+                </a>
+            </li>
+
+        </ul>
+        <h1 id="named">Tobi Salau</h1>
+    </header>
+
+
+    <article>
+        <h2 id="summy">Who am I?</h2>
+        <ul>
+            <li class="summydes" style="top:15px">Computer Science BSc (Hons) student at the University of Kent</li>
+            <li class="summydes" style="top:30px">Recipient of the <em id="scolo">Kent Scholarship for Academic
+                    Excellence</em></li>
+            <li class="summydes" style="top:45px">Capable Programmer - see projects section</a> </li>
+            <li class="summydes" style="top:60px">Potential front-end developer - created and styled this website</li>
+        </ul>
+    </article>
+
+    <article>
+        <button onclick="chngim()" id="diff">&#8657;</button>
+        <img src="Pylogo.png" alt="Python" id="im1">
+        <button onclick="chngim2()" id="diff2">&#8659;</button>
+        <h3 id="stacks">Technology Stack</h3>
+    </article>
+    <div id="vr2"></div>
+    <article>
+        <h2 id="explbl">Experience</h2>
+        <div id="vr"></div>
+        <p id="cs1">Technology Work <br> Experience Programme</p>
+        <p id="pl1">London,Uk</p>
+        <p id="pl2">Jun 2022 - Jul 2022</p>
+        <img src="suisse.png" alt="Credit Suisse Logo" id="lo1">
+        <p id="cs2">Credit Suisse</p>
+        <ul>
+            <li id="csdev1">Successfully worked in a team to develop 2 projects requiring analysis of technical
+                requirements,
+                and proposition of a buisiness solution
+            </li>
+            <li id="csdev2">Shadowed High level software engineers to strengthen my understanding of software
+                development
+                methodologies</li>
+        </ul>
+
+        <p id="guys1">Patient Access Coordinator - Work Experience Programme</p>
+        <p id="pl11">London,Uk</p>
+        <p id="pl22">July 2019</p>
+        <img src="nhs.jpg" alt="NHS Logo" id="lo2">
+        <p id="guys2">Guy's Hospital</p>
+        <ul>
+            <li id="guysdev1">
+                Manipulation and management of a core relational databse in compliance with GDPR regulations
+            </li>
+            <li id="guysdev2">
+                Provided excellent customer care to ensure timely, relevant advice and assistance to all Guy's and St
+                Thomas' NHS FOundation Trust users
+            </li>
+        </ul>
+    </article>
+
+    <article id="Certifications">
+        <div style="width:40px; background-color: rgb(0, 0, 0); height: 20px;" id="shhh"> </div>
+        <h2 id="certlbl">Certifications</h2>
+        <ul>
+            <li class="cyb" style="top:-300px"><a
+                    href="https://drive.google.com/file/d/1H98VCkLEzsVTpUaOQ8TToYuQhwI1whlx/view?usp=sharing"
+                    target="_blank">Cyber Security</a></li>
+            <li class="cyb" style="top: -280px"> <a href="https://coursera.org/verify/YEUTKSHPLR7N"
+                    target="_blank">Python</a></li>
+            <li class="cyb" style="top: -260px"> <a
+                    href="https://drive.google.com/file/d/1OSPU9PdrFRFsNJ2Ud_CSM8Gj6mgtSsLh/view?usp=sharing"
+                    target="_blank">Technology Work Experience</a></li>
+        </ul>
+    </article>
+
+</body>
